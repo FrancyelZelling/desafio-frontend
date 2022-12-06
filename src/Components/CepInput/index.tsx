@@ -1,6 +1,8 @@
 import React, {useState} from "react";
 import { SearchOutlined } from '@ant-design/icons'
 
+import "./index.scss"
+
 export default function CepInput() {
   const [cep, setCep] = useState("")
 
@@ -11,7 +13,7 @@ export default function CepInput() {
   }
 
   return (
-    <div>
+    <div className="input-wrapper">
       <input type="text" placeholder="Insira seu cep aqui" onChange={onChange} /> 
       <SearchOutlined />
     </div>
