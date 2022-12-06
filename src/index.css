@@ -1,3 +1,9 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
   @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;400;700&display=swap');
   margin: 0;
@@ -6,6 +12,8 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: 'Raleway', sans-serif;
+.App {
+  background-color: #fe902b;
+  display: flex;
+  flex-direction: column;
 }

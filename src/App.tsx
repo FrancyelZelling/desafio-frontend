@@ -7,7 +7,7 @@ import './index.css'
 function App() {
   return (
     <div className="App">
-      <h2>Previsão do Tempo</h2>
+      <h2 className='Heading'>Previsão do Tempo</h2>
       <CepInput />
       <Capitais />
     </div>
