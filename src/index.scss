@@ -10,10 +10,11 @@ body {
   font-family: 'Raleway', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  height: 100%;
+  background-color: #fe902b;
 }
 
 .App {
-  background-color: #fe902b;
   display: flex;
   flex-direction: column;
 }

@@ -14,8 +14,9 @@ export default function CepInput() {
 
   return (
     <div className="input-wrapper">
+      <h2 className='heading'>Previsão do Tempo</h2>
       <input type="text" placeholder="Insira seu cep aqui" onChange={onChange} /> 
-      <SearchOutlined />
+      <SearchOutlined className="search-icon" />
     </div>
   )
 }
